@@ -9,6 +9,9 @@ gem 'rails', '4.1.1'
 gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem "paperclip", "~> 4.2"
+gem "paperclip-dropbox", ">= 1.1.7"
+# Figaro was written to make it easy to securely configure Rails applications
+gem "figaro"
 
 group :production do
 	gem 'pg'
