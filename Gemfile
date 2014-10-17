@@ -1,3 +1,4 @@
+source 'http://code.stripe.com'
 source 'https://rubygems.org'
 ruby "1.9.3"
 
@@ -14,6 +15,8 @@ gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 # Devise is a flexible authentication solution for Rails based on Warden
 gem "devise"
+# Payment infrastructure for the internet
+gem 'stripe'
 
 group :production do
 	gem 'pg'
